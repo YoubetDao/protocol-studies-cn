@@ -1,0 +1,52 @@
+.social-links {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 4px;
+  background: #f5f5f5;
+}
+
+.social-links a {
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.nav-chapters {
+  color: #4183c4;
+}
+
+.social-links-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  z-index: 100;
+}
+
+.social-links-footer a {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--fg);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links-footer a:hover {
+  color: var(--sidebar-active);
+}
+
+.social-links-footer img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.sidebar .sidebar-scrollbox {
+  padding-bottom: 70px;
+}
+
+.logo-svg {
+  width: 1.33333em; /* fit the size of fa-lg */
+  height: 1.33333em;
+  vertical-align: middle;
+  pointer-events: none;
+}
